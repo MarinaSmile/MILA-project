@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya:500,700|Lato:400,700');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.intro {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background:url(img/dawn-leaves.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  display: table;
+  top: 0;
+}
+
+.intro .full {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.os-animation h1 {
+  font-family: "Lato 700", sans-serif;
+  color: darkgreen;
+  text-transform: uppercase;
+  font-size: 4rem;
+  text-shadow: 2px yellowgreen;
+}
+
+.under-h1 {
+  font-family: "Lato 700", sans-serif;
+  color: antiquewhite;
+  font-size: 2rem;
+  margin: 9rem 2rem 2rem 2rem;
+}
+
+.button {
+  font-size: 1.25rem;
+  font-family: "Alegreya", serif;
+  text-decoration: none;
+  color: oldlace;
+  border: 1px solid oldlace;
+  padding: 0.25rem 0.5rem;
+  background-color: yellowgreen;
+  border-radius: 5px;
+}
+
+.button:hover {
+  color: darkolivegreen;
+  border: 2px solid darkolivegreen;
+}
+
+.button:active {
+  color: yellow;
+}
+
+@media (max-width: 768px) {
+  .os-animation h1 {
+    font-size: 250%;
+}
+  .button {
+    font-size: 110%;
+}
+  .under-h1 {
+    font-size: 130%;
+  }
+}
