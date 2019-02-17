@@ -1,0 +1,33 @@
+body {
+  color: rgb(65,75,86);
+  font-family: arial;
+  margin: 0px;
+}
+
+h1 {
+font-size: 4em;
+color: rgb(100,130,50);
+text-align: center;
+}
+
+img {
+  align-self: flex-start;
+  display: flex;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+p {
+  width: 70%;
+  margin: 2vh 2vw;
+  font-size: 1em;
+}
+
+p.store-description {
+  font-size: 17px;
+  line-height: 24px;
+}
