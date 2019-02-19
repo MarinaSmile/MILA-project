@@ -1,6 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css?family=The+Girl+Next+Door')
+
+
+
 body {
-  color: rgb(65,75,86);
-  font-family: arial;
+  color: grey;
+  font-family: The girl next door;
   margin: 0px;
 }
 
@@ -11,10 +16,8 @@ text-align: center;
 }
 
 img {
-  align-self: flex-start;
   display: flex;
   padding: 20px;
-  margin: 0 auto;
 }
 
 ul {
