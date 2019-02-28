@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=The+Girl+Next+Door');
+
+
+body {
+  font-family: 'The Girl Next Door', cursive;
+  color: grey;
+}
+
+p {
+  text-transform: none;
+}
+
+h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+.heading-underline {
+  width: 3rem;
+  height: 0.2rem;
+  background-color: gold;
+  margin: 0 auto 2rem;
+}
+
+.btn-secondary {
+  border-width: medium;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-size: 1rem;
+  padding: 0.4rem 1rem;
+  margin: 4rem;
+  color: white;
+  background-color: green;
+  border-color: green;
+}
+
+.narrow {
+  width: 75%;
+  margin: 5rem auto;
+  padding-top: 1.5rem;
+}
+
+/*Navigation*/
+
+.navbar{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  background: green!important;
+}
+
+.navbar .navbar-brand {
+  color: gold;
+}
+.navbar-nav li {
+  padding-right: 0.7rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  padding-top: 0.8rem;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: yellow;
+}
+
+/*London Life Section*/
+
+#london_life {
+  background-image: url(images/shopping-2.png);
+  background-size: cover;
+  padding: 4rem 0 2rem 0;
+  color: white;
+}
+
+#london_life p {
+  padding-top: 3rem;
+}
+
+/* Green Shopping Section*/
+
+.jumbotron {
+  margin-bottom: 0;
+  padding-top: 4rem;
+}
+
+.feature svg.svg-inline--fa {
+  color: darkolivegreen;
+}
+
+/*Recycling Section*/
+
+.container-fluid {
+  background-color: rgba(0,0,0,0.75);
+  color: white;
+  padding: 10rem;
+}
+
+/* Contact Section */
+
+footer {
+  background-color: grey;
+  color: white;
+  padding: 10rem 0 0 0;
+}
+
+footer h1 {
+  font-weight: 700;
+  color: white;
+}
+
+footer a {
+  color: gold;
+}
+
+footer svg.svg-inline--fa {
+  font-size: 1.6rem;
+  margin: 1.2rem 0.5rem 0 0;
+}
+
+footer svg.svg-inline--fa:hover {
+  color: darkolivegreen!important;
+}
+
+hr {
+  width: 100%;
+  border-top: 0.2rem solid lightgrey;
+}
+
+
+/* Media queries */
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 2rem;
+    letter-spacing: 0.15rem;
+    padding-bottom: 0.5rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+    padding-bottom: 1.2rem;
+  }
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
