@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=The+Girl+Next+Door');
+
+body {
+  font-family: 'The Girl Next Door', cursive;
+  color: grey;
+}
+h1 {
+  font-size: 4em;
+  color: rgb(100,130,50);
+  text-align: center;
+  margin: 60px;
+  padding: 30px;
+}
+h2 {color:rgb(100,130,50);}
