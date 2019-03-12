@@ -3,7 +3,7 @@
 
 body {
   font-family: 'The Girl Next Door', cursive;
-  color: black;
+  color: Green;
 }
 body {
   padding-top: 2rem;
@@ -11,4 +11,8 @@ body {
 .starter-template {
   padding: 3rem 1.5rem;
   text-align: center;
+}
+
+p {
+  color: yellow;
 }
