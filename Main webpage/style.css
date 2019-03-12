@@ -75,7 +75,13 @@ h3 {
 
 #london_life {
   background-image: url(images/shopping-2.png);
-  background-size: cover;
+  display: inline-block;
+  width: 100%;
+  font-size: 0;
+  vertical-align: middle;
+  background-size: 130%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
   padding: 4rem 0 2rem 0;
   color: white;
 }
