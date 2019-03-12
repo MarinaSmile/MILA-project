@@ -126,14 +126,14 @@ footer a {
   color: gold;
 }
 
-/* footer svg.svg-inline--fa {
+footer svg.svg-inline--fa {
   font-size: 1.6rem;
   margin: 1.2rem 0.5rem 0 0;
 }
 
 footer svg.svg-inline--fa:hover {
   color: darkolivegreen!important;
-} */
+}
 
 hr {
   width: 100%;
@@ -145,11 +145,10 @@ hr {
 
 @media (max-width: 767px) {
   h1 {
-    font-size: 2rem;
-    letter-spacing: 0.15rem;
-    padding-bottom: 0.5rem;
-  }
-
+  font-size: 2rem;
+  letter-spacing: 0.15rem;
+  padding-bottom: 0.5rem;
+}
   h3 {
     font-size: 1.2rem;
     padding-bottom: 1.2rem;
